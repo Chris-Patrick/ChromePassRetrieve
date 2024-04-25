@@ -11,3 +11,5 @@ The exe uses python to take the file from the directory, then brute force the de
 ### Ultra Uses
 
 The other use was to use a Flipper Zero BadUSB script to download the file from github, run the exe, decrypt passwords, then send the file to a discord webhook.
+
+The txt files in this repo used to work with BadUSB but have not been tested in a while.
