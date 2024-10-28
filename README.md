@@ -6,7 +6,9 @@ This was an example of the impacts of having a weak password on your windows mac
 
 Chrome saves passwords in an elevated privileges directory in file encrypted by your windows password.
 
-The exe uses python to take the file from the directory, then brute force the decryption and save the passwords to a file.
+The exe uses python to take the file from the directory, then exploit the ecryption by utilizing Crypto API and a DECRYPT function provided by windows.
+
+The result is then sent to a discord webhook to view the unencrypted passwords.
 
 ### Ultra Uses
 
